@@ -7,3 +7,7 @@ class AppState(Enum):
     RESET = 3
 
 CURRENT_STATE = AppState.SPLASH
+
+class UIState():
+    splash = 0
+    
